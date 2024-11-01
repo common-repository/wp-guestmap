@@ -1,0 +1,51 @@
+body, html, #map{
+	overflow:hidden;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	border:0;
+}
+.wpgm{
+display:block;
+}
+.wpgm *{
+display:block;
+height:1px;
+overflow:hidden;
+background:#f2efe9;
+}
+.wpgm1{
+border-right:1px solid #686664;
+padding-right:1px;
+margin-right:3px;
+border-left:1px solid #686664;
+padding-left:1px;
+margin-left:3px;
+background:#b5b3ae;
+}
+.wpgm2{
+border-right:1px solid #181717;
+border-left:1px solid #181717;
+padding:0px 1px;
+background:#c4c1bc;
+margin:0px 1px;
+}
+.wpgm3{
+border-right:1px solid #c4c1bc;
+border-left:1px solid #c4c1bc;
+margin:0px 1px;
+}
+.wpgm4{
+border-right:1px solid #686664;
+border-left:1px solid #686664;
+}
+.wpgm5{
+border-right:1px solid #b5b3ae;
+border-left:1px solid #b5b3ae;
+}
+.wpgm_content{
+text-align:justify;
+padding:0px 5px;
+background:#f2efe9;
+}

@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP GuestMap 1.6.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-10-31 03:22+0800\n"
+"Last-Translator: Jiang Kuan <kuan.jiang@gmail.com>\n"
+"Language-Team: CodeXpress.CN <kuan.jiang@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: Line 411
+msgid "Options saved."
+msgstr ""
+
+#: Line 411
+msgid "You need a valid Google Maps API key."
+msgstr ""
+
+#: Line 415
+msgid "WP GuestMap Configuration"
+msgstr ""
+
+#: Line 417
+msgid "Basic Settings"
+msgstr ""
+
+#: Line 418
+msgid "Google Maps API (Required)"
+msgstr ""
+
+#: Line 422
+msgid "API Key URL:"
+msgstr ""
+
+#: Line 426
+msgid "You have to obtain a Google Maps API key to make all these stuffs work. Sign up at <a href=\"http://www.google.com/apis/maps/signup.html\" target=\"_blank\">http://www.google.com/apis/maps/signup.html</a>"
+msgstr ""
+
+#: Line 427
+msgid "<strong>NOTICE</strong>: You should put the <strong>Key URL</strong> here, not just the key. You may wish to make a little hack with the URL. <br />eg: German bloggers may like to point the URL to <em>http://maps.google.com/maps?file=api&amp;hl=de&amp;v=2&amp;key=your_key</em>, while Chinese bloggers would prefer <em>http://ditu.google.com/maps?file=api&amp;v=2&amp;key=your_key</em> to use more detailed map."
+msgstr ""
+
+#: Line 431
+msgid "Miscellaneous"
+msgstr ""
+
+#: Line 435
+msgid "WP-Cache Enabled:"
+msgstr ""
+
+#: Line 438
+msgid "If you are using the plugin \"WP-Cache\" and have enabled it, please check this box to avoid conflict."
+msgstr ""
+
+#: Line 443, 582
+msgid "Submit Changes"
+msgstr ""
+
+#: Line 448
+msgid "Widget Settings"
+msgstr ""
+
+#: Line 449
+msgid "Guest Locator"
+msgstr ""
+
+#: Line 453
+msgid "Welcome Message:"
+msgstr ""
+
+#: Line 457
+msgid "Plain text and HTML code are allowed. Besides, you can also use tags like <strong>%country%</strong>, <strong>%country_code%</strong>, <strong>%city%</strong>, <strong>%latitude%</strong> and <strong>%longitude%</strong>."
+msgstr ""
+
+#: Line 461
+msgid "Online Tracker"
+msgstr ""
+
+#: Line 465
+msgid "Tracker's Information:"
+msgstr ""
+
+#: Line 469
+msgid "This widget is almost the same as <strong>Guest Locator</strong>, except that this one also shows other online users, and refresh every minute. You have two extra tag <strong>%online_user_count%</strong> and <strong>%online_other_user_count%</strong> besides those in <strong>Guest Locator</strong>."
+msgstr ""
+
+#: Line 474
+msgid "Timeout:"
+msgstr ""
+
+#: Line 477
+msgid "Seconds"
+msgstr ""
+
+#: Line 479
+msgid "If a client doesn't respond for a long time, it should be considered offline. 15 minutes (900 seconds) is recommended."
+msgstr ""
+
+#: Line 481
+msgid "Refresh Rate:"
+msgstr ""
+
+#: Line 484
+msgid "Seconds (0 for passive mode)"
+msgstr ""
+
+#: Line 485
+msgid "<strong>Online Tracker</strong> loads online status periodically by default, and this defines its frequency. In passvie mode, the online status is loaded only when the page is first loaded."
+msgstr ""
+
+#: Line 489
+msgid "Stats Map"
+msgstr ""
+
+#: Line 493
+msgid "Status:"
+msgstr ""
+
+#: Line 496
+msgid "Enabled:"
+msgstr ""
+
+#: Line 499
+msgid "If enabled, WP GuestMap will begin to collect statistics, no matter whether you choose to display Stats Map."
+msgstr ""
+
+#: Line 504
+msgid "Output Pagesize:"
+msgstr ""
+
+#: Line 510
+msgid "The performance of Stats Map is greatly dependent on pagesize. Now the default value is 25; the previous on is 100."
+msgstr ""
+
+#: Line 515
+msgid "Date of Birth:"
+msgstr ""
+
+#: Line 522
+msgid "Delete data before birthday."
+msgstr ""
+
+#: Line 525
+msgid "<strong>Only data after this day will show on Stats Map</strong>. Format <strong>YYYY-MM-DD</strong>."
+msgstr ""
+
+#: Line 524 
+msgid "Authentic Key:"
+msgstr ""
+
+#: Line 537
+msgid "The URLs above are RSS feeds containing a daily report of your visitors. Because IP address and other client information is kind of privacy of visitors, you should keep <strong>Private Feed</strong> URL a secret. If you find the URL is abused, please change the key, and use the NEW URL. I cannot adopt a better authentic method, otherwise you will not be able to subscribe it via online RSS readers."
+msgstr ""
+
+#: Line 541
+msgid "Weather Map"
+msgstr ""
+
+#: Line 545
+msgid "Google AJAX Feed API Key:"
+msgstr ""
+
+#: Line 549
+msgid "Just key is OK, no URL. We use Google AJAX Feed Fetcher to get weather infomation. Sign up at <a href=\"http://code.google.com/apis/ajaxfeeds/signup.html\" target=\"_blank\">http://code.google.com/apis/ajaxfeeds/signup.html</a>"
+msgstr ""
+
+#: Line 554
+msgid "Location parameter:"
+msgstr ""
+
+#: Line 558
+msgid "The location parameter can be a US Zip code or a location ID. To find your location ID, browse or search for your city from the <a href=\"http://weather.yahoo.com/\" target=\"_blank\">Yahoo! Weather</a> home page. The weather ID is in the URL for the forecast page for that city. You can also get the location ID by entering your zip code on the home page. For example, if you search for Los Angeles on the Yahoo! Weather home page, the forecast page for that city is http://weather.yahoo.com/forecast/USCA0638.html. The location ID is USCA0638."
+msgstr ""
+
+#: Line 561
+msgid "Unit:"
+msgstr ""
+
+#: Line 565
+msgid "Celsius"
+msgstr ""
+
+#: Line 566
+msgid "Fahrenheit"
+msgstr ""
+
+#: Line 568
+msgid "Temperature unit"
+msgstr ""
+
+#: Line 587
+msgid "Map Builder"
+msgstr ""
+
+#: Line 588
+msgid "Adjust Map Options"
+msgstr ""
+
+#: Line 592
+msgid "Zoom Level:"
+msgstr ""
+
+#: Line 595, 596
+msgid "integer between 0~17"
+msgstr ""
+
+#: Line 599
+msgid "Map Type:"
+msgstr ""
+
+#: Line 602
+msgid "Hybird Map is recommended."
+msgstr ""
+
+#: Line 604
+msgid "Strongly recommend not to use Normal Map"
+msgstr ""
+
+#: Line 612
+msgid "Default Center:"
+msgstr ""
+
+#: Line 616
+msgid "You can put city name, or your latitude and longitude(eg: 32.52, 122.53) in the textbox, then press \"Locate\" button to set the center of the map. If it fails to , you have to find geoloaction by yourself."
+msgstr ""
+
+#: Line 619
+msgid "Locate"
+msgstr ""
+
+#: Line 625
+msgid "Width:"
+msgstr ""
+
+#: Line 629
+msgid "Integer or percentage."
+msgstr ""
+
+#: Line 632
+msgid "Height:"
+msgstr ""
+
+#: Line 636
+msgid "Integer"
+msgstr ""
+
+#: Line 641
+msgid "ID:"
+msgstr ""
+
+#: Line 645
+msgid "ID can be used in CSS"
+msgstr ""
+
+#: Line 649
+msgid "Get Your Code"
+msgstr ""
+
+#: Line 653
+msgid "Use &lt;object&gt;:"
+msgstr ""
+
+#: Line 657
+msgid "If DOCTYPE of your theme is <strong>XHTML Strict</strong>, please check here to use &lt;object&gt; instead of &lt;iframe&gt;."
+msgstr ""
+
+#: Line 662
+msgid "Code:"
+msgstr ""
+
+#: Line 670
+msgid "Get Your Guest Locator"
+msgstr ""
+
+#: Line 671
+msgid "Get Your Online Tracker"
+msgstr ""
+
+#: Line 672
+msgid "Get Your Stats Map"
+msgstr ""
+
+#: Line 673
+msgid "Get Your Weather Map"
+msgstr ""
+
+#: Strings
+msgid "CLICK HERE TO VIEW"
+msgstr ""
+
+#: Strings
+msgid "Private Feed:"
+msgstr ""
+
+#: Strings
+msgid "Visual Feed:"
+msgstr ""
+
